@@ -19,6 +19,9 @@
             "using namespace std;\n",
             "class $1",
             "{",
+            "public:\n",
+            "//constructor",
+            "\t$1():{}",
             "\t$2",
             "};",
             "int main()",
@@ -28,5 +31,57 @@
             "}"
         ],
         "description": "Creates a boilerplate class for CPP"
+    },
+    "CPP Class Inheritance": {
+        "prefix": "cppinherit",
+        "body": [
+            "#include <iostream>",
+            "using namespace std;\n",
+            "class $1",
+            "{",
+            "public:\n",
+            "//constructor",
+            "\t$1():{}",
+            "\t$2",
+            "};",
+            "class $3 : public $1",
+            "{",
+            "\t$4",
+            "};",
+            "int main()",
+            "{",
+            "\t$5",
+            "\treturn 0;",
+            "}"
+        ],
+        "description": "CPP class for single inheritance"
+    },
+    "CPP Class 2 Inheritance": {
+        "prefix": "cppinherit2",
+        "body": [
+            "#include <iostream>",
+            "using namespace std;\n",
+            "class $1",
+            "{",
+            "public:\n",
+            "//constructor",
+            "\t$1():{}",
+            "\t$2",
+            "};",
+            "class $3 : public $1",
+            "{",
+            "\t$4",
+            "};",
+            "class $5 : public $1",
+            "{",
+            "\t$6",
+            "};",
+            "int main()",
+            "{",
+            "\t$7",
+            "\treturn 0;",
+            "}"
+        ],
+        "description": "CPP class for double inheritance"
     }
 }

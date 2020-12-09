@@ -1,0 +1,32 @@
+{
+    "CPP Boilerplate": {
+        "prefix": "cpp",
+        "body": [
+            "#include <iostream>",
+            "using namespace std;\n",
+            "int main()",
+            "{",
+            "\t$1",
+            "\treturn 0;",
+            "}"
+        ],
+        "description": "Creates a boilerplate for CPP"
+    },
+    "CPP Class": {
+        "prefix": "cppclass",
+        "body": [
+            "#include <iostream>",
+            "using namespace std;\n",
+            "class $1",
+            "{",
+            "\t$2",
+            "};",
+            "int main()",
+            "{",
+            "\t$3",
+            "\treturn 0;",
+            "}"
+        ],
+        "description": "Creates a boilerplate class for CPP"
+    }
+}

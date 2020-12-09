@@ -1,0 +1,22 @@
+{
+  "name": "cppcodes",
+  "displayName": "cppcodes",
+  "description": "Simple code snippets for C++ programming",
+  "version": "1.0.0",
+  "publisher": "Jay",
+  "icon": "icon.png",
+  "engines": {
+    "vscode": "^1.51.0"
+  },
+  "categories": [
+    "Snippets"
+  ],
+  "contributes": {
+    "snippets": [
+      {
+        "language": "cpp",
+        "path": "./snippets/snippets.code-snippets"
+      }
+    ]
+  }
+}

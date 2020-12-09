@@ -4,6 +4,10 @@
   "description": "Simple code snippets for C++ programming",
   "version": "1.0.0",
   "publisher": "Jay",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/bhattaraijay05/cppsnippets"
+  },
   "icon": "icon.png",
   "engines": {
     "vscode": "^1.51.0"
